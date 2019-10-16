@@ -1,0 +1,14 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.ContainTop{
+    align-self: flex-start;
+}
+
+.ContainBottom{
+    align-self: flex-end;
+}

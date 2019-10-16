@@ -1,0 +1,27 @@
+.SaveInfoCard{
+    justify-content: center;
+    order: 1;
+    padding: 5px;
+}
+
+.CardColumnsStyle{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .SaveInfoCard{
+        flex: 1;
+    }
+    .CardColumnsStyle{
+        display: flex;
+        flex-direction: column;
+    }
+    .column {
+      width: 100%;
+    }
+  }
+
