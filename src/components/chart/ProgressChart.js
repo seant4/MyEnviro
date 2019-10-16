@@ -28,7 +28,7 @@ function ProgressChart(){
           nature++;
       }
     }
-    const data = 
+    let data = 
       [ {angle: 1, radius: movement}, {angle: 2, radius: waste}, {angle: 3, radius: power}, {angle: 4, radius: nature} ];
     return (
       <div className="ProgressChart">

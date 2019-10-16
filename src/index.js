@@ -23,7 +23,7 @@ const routing = (
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="/">My Impact</Navbar.Brand>
             <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/">Progress</Nav.Link>
             <Nav.Link href="/save">Save</Nav.Link>
             <Nav.Link href="/learn">Learn</Nav.Link>
             </Nav>
