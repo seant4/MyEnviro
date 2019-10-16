@@ -1,48 +1,147 @@
-export const movement = () => {
-    return {
-     type: 'MOVEMENT'
-    };
-}
-
-export const waste = () =>{
+export const walk = () =>{
     return{
-        type: 'WASTE'
+        type: 'WALK'
     };
 }
 
-export const power = () =>{
+export const electriccar = () =>{
     return{
-        type: 'POWER'
+        type: 'ELECTRICCAR'
     };
 }
 
-export const nature = () =>{
+export const carpool = () =>{
     return{
-        type: 'NAMENATURE'
+        type: 'CARPOOL'
     };
 }
 
-export const namemovement = () => {
-    return {
-     type: 'NAMEMOVEMENT'
-    };
-}
-
-export const namewaste = () =>{
+export const car = () =>{
     return{
-        type: 'NAMEWASTE'
+        type: 'CAR'
     };
 }
 
-export const namepower = () =>{
+export const carpooln = () =>{
     return{
-        type: 'NAMEPOWER'
+        type: 'CARPOOLN'
     };
 }
 
-export const namenature = () =>{
+export const straw = () =>{
     return{
-        type: 'NAMENATURE'
+        type: 'STRAW'
     };
 }
 
+export const strawn = () =>{
+    return{
+        type: 'STRAWN'
+    };
+}
+export const lights = () =>{
+    return{
+        type: 'LIGHTS'
+    };
+}
+
+export const ac = () =>{
+    return{
+        type: 'LIGHTS'
+    };
+}
+
+export const solar = () =>{
+    return{
+        type: 'SOLAR'
+    };
+}
+
+export const trash = () =>{
+    return{
+        type: 'TRASH'
+    };
+}
+
+export const metal = () => {
+    return{
+        type: 'METAL'
+    };
+}
+
+export const compost = () => {
+    return{
+        type: 'COMPOST'
+    };
+}
+
+export const tree = () =>{
+    return{
+        type: 'TREE'
+    };
+}
+
+export const garden = () => {
+    return{
+        type: 'GARDEN'
+    };
+}
+export const walkn = () =>{
+    return{
+        type: 'WALKN'
+    };
+}
+
+export const carn = () =>{
+    return{
+        type: 'CARN'
+    };
+}
+
+export const lightsn = () =>{
+    return{
+        type: 'LIGHTSN'
+    };
+}
+
+export const acn = () =>{
+    return{
+        type: 'ACN'
+    };
+}
+
+export const solarn = () =>{
+    return{
+        type: 'SOLARN'
+    };
+}
+
+export const trashn = () =>{
+    return{
+        type: 'TRASHN'
+    };
+}
+
+export const metaln = () => {
+    return{
+        type: 'METALN'
+    };
+}
+
+export const compostn = () => {
+    return{
+        type: 'COMPOSTN'
+    };
+}
+
+export const treen = () =>{
+    return{
+        type: 'TREEN'
+    };
+}
+
+export const gardenn = () => {
+    return{
+        type: 'GARDENN'
+    };
+}

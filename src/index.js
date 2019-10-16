@@ -2,14 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
-import App from './App';
 import Progress from './components/progress/progress';
 import Save from './components/save/save';
 import Learn from './components/learn/learn';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav, Navbar, Brand, Link} from 'react-bootstrap';
-import allReducers from './reducers';
-import {createStore} from 'redux';
+import {Nav, Navbar} from 'react-bootstrap';
 import {Provider} from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react'
 import { persistor, store } from './store';
@@ -20,7 +17,7 @@ const routing = (
       <PersistGate loading={null} persistor={persistor}>
     <Router>
       <div>
-        <Navbar bg="dark" variant="dark">
+        <Navbar sticky="top" bg="dark" variant="dark">
             <Navbar.Brand href="/">My Impact</Navbar.Brand>
             <Nav className="mr-auto">
             <Nav.Link href="/">Progress</Nav.Link>
