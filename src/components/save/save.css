@@ -1,13 +1,15 @@
 .SaveInfoCard{
+    display: flex;
     justify-content: center;
+    align-items: center;
     order: 1;
-    padding: 2px;
+    
 }
 
 .CardColumnsStyle{
     display: flex;
     align-items: center;
-    padding: 25px;
+    padding: 2px;
     width: 100%;
     justify-content: center;
 }
