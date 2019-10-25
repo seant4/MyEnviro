@@ -1,0 +1,11 @@
+.learnText{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1080px) {
+    .learnText{
+        font-size: 20px;
+    }
+}
+
+

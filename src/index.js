@@ -5,7 +5,7 @@ import './index.css';
 import Progress from './components/progress/progress';
 import Save from './components/save/save';
 import Learn from './components/learn/learn';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './bootstrap.min.css';
 import {Nav, Navbar} from 'react-bootstrap';
 import {Provider} from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react'
@@ -17,12 +17,12 @@ const routing = (
       <PersistGate loading={null} persistor={persistor}>
     <Router>
       <div>
-        <Navbar sticky="top" bg="dark" variant="dark">
-            <Navbar.Brand href="/">My Impact</Navbar.Brand>
-            <Nav className="mr-auto">
-            <Nav.Link href="/">Progress</Nav.Link>
-            <Nav.Link href="/save">Save</Nav.Link>
-            <Nav.Link href="/learn">Learn</Nav.Link>
+        <Navbar style={{'display':'flex', 'justify-content':'center'}} sticky="top" bg="dark" variant="dark">
+            <Nav  className="mr-auto">
+            <Nav.Link href="/" style={{'font-size': '25px'}}>Progress</Nav.Link>
+            <Nav.Link href="/save" style={{'font-size': '25px'}}>Save</Nav.Link>
+            <Nav.Link href="/learn" style={{'font-size': '25px'}}>Learn</Nav.Link>
+            <Nav.Link href="/learn" style={{'font-size': '25px'}}></Nav.Link>
             </Nav>
         </Navbar>
         <Route exact path="/" component={Progress} />
