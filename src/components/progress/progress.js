@@ -13,7 +13,7 @@ function Progress(){
     const name = useSelector(state => state.name);
     const [level, setLevel] = useState(0);
     const url = 'this comes later lol'
-    const shareText = 'I have become a level ' + level + " environmental hero with MyImpact!"
+    const shareText = 'I have become a level ' + (level+1) + " environmental hero with MyImpact!"
     useEffect(()=>{    
         if(points >= 25 && points < 50){setLevel(1);setTotal((points/50)*100)}
         else if(points < 25){setTotal((points/25)*100)}
@@ -32,7 +32,7 @@ function Progress(){
             <div className="ContainTop"></div>
             <Card style={{ width: '50rem' }} className="align-middle">
                 <Card.Img src={box} />
-                <Card.Header>You have {points} points! And you are a level {level} hero!<Twitter style={{float: 'right'}}url={url} shareText={shareText} /><Pinterest style={{float: 'right'}}url={url} shareText={shareText} /></Card.Header>
+                <Card.Header>You have {points} points! And you are a level {level+1} hero!<Twitter style={{float: 'right'}}url={url} shareText={shareText} /><Pinterest style={{float: 'right'}}url={url} shareText={shareText} /></Card.Header>
                 <Card.Header style={{height: '50px'}} ><ProgressBar style={{height: '25px'}} now={total} label={`${total}%`}    /></Card.Header>
                     <ListGroup variant="flush">
                         {([...name].reverse()).map((n)=>

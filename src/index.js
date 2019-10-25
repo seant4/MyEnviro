@@ -18,6 +18,7 @@ const routing = (
     <Router>
       <div>
         <Navbar style={{'display':'flex', 'justify-content':'center'}} sticky="top" bg="dark" variant="dark">
+          <Navbar.Brand style={{'font-size': '27px'}}>My Impact</Navbar.Brand>
             <Nav  className="mr-auto">
             <Nav.Link href="/" style={{'font-size': '25px'}}>Progress</Nav.Link>
             <Nav.Link href="/save" style={{'font-size': '25px'}}>Save</Nav.Link>
@@ -39,4 +40,4 @@ const routing = (
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.register();
