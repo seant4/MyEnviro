@@ -5,6 +5,7 @@ import './index.css';
 import Progress from './components/progress/progress';
 import Save from './components/save/save';
 import Learn from './components/learn/learn';
+import Loading from './components/loading/loading'
 import './bootstrap.min.css';
 import {Nav, Navbar} from 'react-bootstrap';
 import {Provider} from 'react-redux';
