@@ -19,7 +19,7 @@ function Progress(){
     const name = useSelector(state => state.name);
     const [level, setLevel] = useState(0);
     const url = 'this comes later lol'
-    const shareText = 'I have become a level ' + (level+1) + " environmental hero with MyImpact!"
+    const shareText = 'I have become a level ' + (level+1) + " environmental hero with MyEnviro!"
     useEffect(()=>{    
         if(points >= 25 && points < 50){setLevel(1);setTotal((points/50)*100);setImage(sprout)}
         else if(points < 25){setTotal((points/25)*100);setImage(sappling)}
