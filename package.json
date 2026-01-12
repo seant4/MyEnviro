@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "expo-cli": "^3.3.0",
+    "expo-cli": "^6.3.12",
     "g": "^2.0.1",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
@@ -13,7 +13,7 @@
     "react-dom-confetti": "^0.1.1",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "react-share": "^3.0.1",
     "react-sharingbuttons": "^1.0.0",
     "react-use": "^12.5.0",
